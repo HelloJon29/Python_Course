@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python executables
+.Python
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints
+
+# VSCode specific files
+.vscode/
+.settings/
+
+# Python coverage
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Pycache
+*.pyc
+
+# Ignore local configuration files for IDEs/editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.pydevproject
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+
+# Ignore sensitive or environment-specific information
+secrets.ini
+secrets.yaml
+config.ini
+config.py
+.env
